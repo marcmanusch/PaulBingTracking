@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<plugin>
+	<label lang="de">Bing Tracking integration</label>
+
+	<version>2.0.1</version>
+	<link>https://github.com/marcmanusch</link>
+	<author>Marc Manusch/author>
+	<compatibility minVersion="5.2.0" />
+
+	<changelog version="2.0.0">
+		<changes lang="de">release</changes>
+	</changelog>
+</plugin>
