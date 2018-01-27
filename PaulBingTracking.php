@@ -42,6 +42,6 @@ class PaulBingTracking extends Plugin {
 		}
 
 		// Set template vars.
-		$view->lenzBingAdsConversionTrackingUETID = Shopware()->Config()->getByNamespace('PaulBingTracking', 'UETID');
+		$view->paulBingTrackingUETID = Shopware()->Config()->getByNamespace('PaulBingTracking', 'UETID');
 	}
 }
