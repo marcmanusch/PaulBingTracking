@@ -2,11 +2,6 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="../../../engine/Shopware/Components/Plugin/schema/config.xsd">
 	<elements>
-		<element type="boolean">
-			<name>show</name>
-			<label lang="de">Aktiv:</label>
-			<value>true</value>
-		</element>
 
 		<element type="text">
 			<name>UETID</name>
