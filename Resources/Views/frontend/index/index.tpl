@@ -4,6 +4,6 @@
 
 	{$smarty.block.parent}
 
-	{include file='frontend/index/bing_tracking.tpl'}
+	{include file='frontend/checkout/cart_footer.tpl'}
 
 {/block}
