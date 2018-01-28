@@ -6,8 +6,8 @@
     {/if}
     <script>
         {literal}
-        window.uetq = window.uetq || [];
-        window.uetq.push({  'gv': {/literal}{$sRealAmount}{literal}});  // Pass the computed revenue
+            window.uetq = window.uetq || [];
+            window.uetq.push({  'gv': {/literal}{$sRealAmount}{literal}});
         {/literal}
     </script>
 {/if}
