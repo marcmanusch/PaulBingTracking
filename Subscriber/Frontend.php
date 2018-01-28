@@ -38,11 +38,11 @@ class Frontend implements SubscriberInterface
         $view->addTemplateDir($this->container->getParameter('paul_bing_tracking.plugin_dir') . '/Resources/Views');
         
         // get plugin settings
-        $paulPlentyFreeActive = $config['paulPlentyFreeActive'];
-        $paulPlentyFreeNr = $config['paulPlentyFreeNr'];
+        $paulBingActive = $config['show'];
+        $paulBingUETID = $config['UETID'];
 	    
         // aggign to frontend
-        $view->assign('paulPlentyFreeActive', $paulPlentyFreeActive);
-        $view->assign('paulPlentyFreeNr', $paulPlentyFreeNr);
+        $view->assign('paulBingActive', $paulBingActive);
+        $view->assign('paulBingUETID', $paulBingUETID);
     }
 }
