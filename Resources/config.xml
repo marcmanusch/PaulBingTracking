@@ -6,7 +6,6 @@
 		<element type="text">
 			<name>UETID</name>
 			<label lang="de">UET Tag ID (z.B.: 9827381):</label>
-			<value></value>
 		</element>
 	</elements>
 </config>
