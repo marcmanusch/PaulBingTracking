@@ -41,7 +41,6 @@ class Frontend implements SubscriberInterface
         $paulBingTrackingUETID = $config['UETID'];
 	    
         // aggign to frontend
-        $view->assign('paulBingActive', $paulBingActive);
         $view->assign('paulBingTrackingUETID', $paulBingTrackingUETID);
     }
 }
